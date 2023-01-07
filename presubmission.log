@@ -1,0 +1,121 @@
+Script started on 2022-04-04 20:58:09-06:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+vittorio@ug14:~$ cp assignment4.tgz Documents
+vittorio@ug14:~$ cd Documents
+vittorio@ug14:~/Documents$ tar -xvzf assignment4.tgz
+assignment4/
+assignment4/random_player/
+assignment4/random_player/._board.py
+assignment4/random_player/gtp_connection.py
+assignment4/random_player/._gtp_connection.py
+assignment4/random_player/._nogo_random.py
+assignment4/random_player/board_util.py
+assignment4/random_player/board.py
+assignment4/random_player/__pycache__/
+assignment4/random_player/__pycache__/board.cpython-38.pyc
+assignment4/random_player/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/random_player/__pycache__/board_util.cpython-38.pyc
+assignment4/random_player/._board_util.py
+assignment4/random_player/nogo_random.py
+assignment4/._nogo4
+assignment4/a_volta/
+assignment4/a_volta/._simple_board.py
+assignment4/a_volta/board_score.py
+assignment4/a_volta/nogo4.py
+assignment4/a_volta/gtp_connection.py
+assignment4/a_volta/._gtp_connection.py
+assignment4/a_volta/feature.py
+assignment4/a_volta/pattern_util.py
+assignment4/a_volta/pattern_learn.py
+assignment4/a_volta/board_util.py
+assignment4/a_volta/board.py
+assignment4/a_volta/features_weight.dat
+assignment4/a_volta/pattern.py
+assignment4/a_volta/gtp_connection_go3.py
+assignment4/a_volta/__pycache__/
+assignment4/a_volta/__pycache__/mcts.cpython-38.pyc
+assignment4/a_volta/__pycache__/board.cpython-38.pyc
+assignment4/a_volta/__pycache__/feature.cpython-38.pyc
+assignment4/a_volta/__pycache__/gtp_connection_go3.cpython-38.pyc
+assignment4/a_volta/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/a_volta/__pycache__/board_score.cpython-38.pyc
+assignment4/a_volta/__pycache__/feature_moves.cpython-38.pyc
+assignment4/a_volta/__pycache__/board_util.cpython-38.pyc
+assignment4/a_volta/__pycache__/pattern_util.cpython-38.pyc
+assignment4/a_volta/__pycache__/pattern.cpython-38.pyc
+assignment4/a_volta/__pycache__/pattern_learn.cpython-38.pyc
+assignment4/a_volta/feature_moves.py
+assignment4/a_volta/._board_util.py
+assignment4/a_volta/mcts.py
+assignment4/a_volta/._nogo4.py
+assignment4/ucb_player/
+assignment4/ucb_player/._board.py
+assignment4/ucb_player/gtp_connection.py
+assignment4/ucb_player/._gtp_connection.py
+assignment4/ucb_player/nogo_ucb.py
+assignment4/ucb_player/board_util.py
+assignment4/ucb_player/board.py
+assignment4/ucb_player/__pycache__/
+assignment4/ucb_player/__pycache__/board.cpython-38.pyc
+assignment4/ucb_player/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/ucb_player/__pycache__/board_util.cpython-38.pyc
+assignment4/ucb_player/._board_util.py
+assignment4/ucb_player/._nogo_ucb.py
+assignment4/readme.txt
+assignment4/._play.py
+assignment4/._flat_mc_player
+assignment4/._random_player
+assignment4/play.py
+vittorio@ug14:~/Documents$ cd assignment4
+vittorio@ug14:~/Documents/assignment4$ python3 ./play.py
+Player1 made move: D1
+Player2 made move: C2
+Player1 made move: F4
+Player2 made move: E6
+Player1 made move: A6
+Player2 made move: E5
+Player1 made move: F6
+Player2 made move: E7
+Player1 made move: B2
+Player2 made move: G6
+Player1 made move: C1
+Player2 made move: E3
+Player1 made move: G3
+Player2 made move: F1
+Player1 made move: B7
+Player2 made move: E4
+Player1 made move: E2
+Player2 made move: G4
+Player1 made move: A3
+Player2 made move: D5
+Player1 made move: C7
+Player2 made move: B3
+Player1 made move: A1
+Player2 made move: D6
+Player1 made move: C5
+Player2 made move: A4
+Player1 made move: G7
+Player2 made move: D3
+Player1 made move: D7
+Player2 made move: C4
+Player1 made move: F5
+Player2 made move: D4
+Player1 made move: G1
+Player2 made move: A5
+Player1 made move: F2
+Player2 made move: C6
+Player1 made move: B1
+Player2 made move: D2
+Player1 made move: F3
+Player2 made move: B4
+Player1 made move: A2
+Player2 made move: C3
+Player1 made move: G2
+Player2 made move: B6
+Player1 made move: F7
+Winner: Player1 Timeout: 0
+
+Player1 wins 1 Player2 wins 0 Timeouts 0
+vittorio@ug14:~/Documents/assignment4$ exit
+exit
+
+Script done on 2022-04-04 21:02:53-06:00 [COMMAND_EXIT_CODE="0"]
